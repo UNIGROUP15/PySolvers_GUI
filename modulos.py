@@ -481,7 +481,6 @@ class Game:
         self.mouse()
         self.fontes()
 
-        # self.start = pg.Rect(340, 240, 360, 60)
         self.creditos = pg.Rect(340, 320, 360, 60)
         self.voltar = pg.Rect(340, 410, 360, 60)
 
@@ -491,7 +490,7 @@ class Game:
             # Textos
             self.prod = self.texto_final.render('Produzido por:', True, self.cor_player)
             self.member_one = self.texto_final.render('Gabriel Correia', True, self.cor_player)
-            self.member_two = self.texto_final.render('Ricardo Garcês', True, self.cor_player)
+            self.member_two = self.texto_final.render('Ricardo Garcêz', True, self.cor_player)
             self.member_three = self.texto_final.render('Pablo Narciso', True, self.cor_player)
             self.member_four = self.texto_final.render('Eduardo Gonçalves', True, self.cor_player)
             self.member_five = self.texto_final.render('Antônio Domingos', True, self.cor_player)
