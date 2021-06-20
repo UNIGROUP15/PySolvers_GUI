@@ -1,9 +1,6 @@
 import pygame as pg
 import pandas as pd
 from time import sleep
-from sqlalchemy import create_engine
-from sqlalchemy.sql import text
-from sqlalchemy import Table, Column, Integer, String, MetaData
 
 
 class Game:
